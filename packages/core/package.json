@@ -1,6 +1,6 @@
 {
     "name": "@imooc-cli-bin/core",
-    "version": "1.0.2",
+    "version": "1.0.0",
     "description": "脚手架主目录",
     "author": "ming-bin <1172725028@qq.com>",
     "homepage": "",
@@ -25,5 +25,5 @@
     "dependencies": {
         "@imooc-cli-bin/utils": "^1.0.2"
     },
-    "gitHead": "e9a5491b31cd635faadafd4bade3cccceda73f85"
+    "gitHead": "a1d419a8cd08127a034b278d85263b430b9dd4ad"
 }

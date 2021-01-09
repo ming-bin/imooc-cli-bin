@@ -1,23 +1,23 @@
 {
-  "name": "@imooc-cli-bin/utils",
-  "version": "1.0.2",
-  "description": "慕课乐高脚手架工具",
-  "author": "ming-bin <1172725028@qq.com>",
-  "homepage": "",
-  "license": "ISC",
-  "main": "lib/index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "publishConfig": {
-    "registry": "http://registry.npmjs.org/"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "gitHead": "e9a5491b31cd635faadafd4bade3cccceda73f85"
+    "name": "@imooc-cli-bin/utils",
+    "version": "1.0.0",
+    "description": "慕课乐高脚手架工具",
+    "author": "ming-bin <1172725028@qq.com>",
+    "homepage": "",
+    "license": "ISC",
+    "main": "lib/index.js",
+    "directories": {
+        "lib": "lib",
+        "test": "__tests__"
+    },
+    "files": [
+        "lib"
+    ],
+    "publishConfig": {
+        "registry": "http://registry.npmjs.org/"
+    },
+    "scripts": {
+        "test": "echo \"Error: run tests from root\" && exit 1"
+    },
+    "gitHead": "a1d419a8cd08127a034b278d85263b430b9dd4ad"
 }
