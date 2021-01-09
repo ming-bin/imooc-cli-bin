@@ -1,6 +1,6 @@
 {
     "name": "@imooc-cli-bin/core",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "脚手架主目录",
     "author": "ming-bin <1172725028@qq.com>",
     "homepage": "",
@@ -17,7 +17,8 @@
         "lib"
     ],
     "publishConfig": {
-        "registry": "http://registry.npmjs.org/"
+        "registry": "http://registry.npmjs.org/",
+        "access": "public"
     },
     "scripts": {
         "test": "echo \"Error: run tests from root\" && exit 1"
