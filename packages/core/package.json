@@ -1,6 +1,6 @@
 {
     "name": "@imooc-cli-bin/core",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "脚手架主目录",
     "author": "ming-bin <1172725028@qq.com>",
     "homepage": "",
@@ -24,7 +24,7 @@
         "test": "echo \"Error: run tests from root\" && exit 1"
     },
     "dependencies": {
-        "@imooc-cli-bin/utils": "^1.0.2"
+        "@imooc-cli-bin/utils": "^1.0.3"
     },
     "gitHead": "a1d419a8cd08127a034b278d85263b430b9dd4ad"
 }
