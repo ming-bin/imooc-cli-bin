@@ -7,7 +7,7 @@
     "license": "ISC",
     "main": "lib/core.js",
     "bin": {
-        "immooc-cli-bin": "bin/index.js"
+        "imooc-cli-bin": "bin/index.js"
     },
     "directories": {
         "lib": "lib",
@@ -24,7 +24,7 @@
         "test": "echo \"Error: run tests from root\" && exit 1"
     },
     "dependencies": {
-        "@imooc-cli-bin/utils": "^1.0.3"
+        "@imooc-cli-bin/utils": "file:../utils"
     },
     "gitHead": "a1d419a8cd08127a034b278d85263b430b9dd4ad"
 }

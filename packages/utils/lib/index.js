@@ -2,6 +2,7 @@
 
 module.exports = imoocUtils;
 
-function imoocUtils() {
+function imoocUtils () {
     // TODO
+    console.log("utils");
 }
