@@ -24,7 +24,7 @@
         "test": "echo \"Error: run tests from root\" && exit 1"
     },
     "dependencies": {
-        "@imooc-cli-bin/utils": "file:../utils"
+        "@imooc-cli-bin/utils": "file:../../utils/utils"
     },
     "gitHead": "a1d419a8cd08127a034b278d85263b430b9dd4ad"
 }
