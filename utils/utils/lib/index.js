@@ -1,8 +1,9 @@
 'use strict';
 
-module.exports = imoocUtils;
+module.exports = {
+    isObject
+};
 
-function imoocUtils () {
-    // TODO
-    console.log("utils");
+function isObject (params) {
+    return Object.prototype.toString(params) === '[object Object]'
 }

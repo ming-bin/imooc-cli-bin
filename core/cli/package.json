@@ -1,6 +1,6 @@
 {
     "name": "@imooc-cli-bin/core",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "脚手架主目录",
     "author": "ming-bin <1172725028@qq.com>",
     "homepage": "",
@@ -24,7 +24,18 @@
         "test": "echo \"Error: run tests from root\" && exit 1"
     },
     "dependencies": {
-        "@imooc-cli-bin/utils": "file:../../utils/utils"
+        "@imooc-cli-bin/exec": "file:../exec",
+        "@imooc-cli-bin/get-npm-info": "file:../../utils/get-npm-info",
+        "@imooc-cli-bin/init": "file:../../commands/init",
+        "@imooc-cli-bin/log": "file:../../utils/log",
+        "@imooc-cli-bin/utils": "file:../../utils/utils",
+        "colors": "^1.4.0",
+        "commander": "^7.1.0",
+        "dotenv": "^8.2.0",
+        "path-exists": "^4.0.0",
+        "root-check": "^1.0.0",
+        "semver": "^7.3.4",
+        "user-home": "^2.0.0"
     },
     "gitHead": "a1d419a8cd08127a034b278d85263b430b9dd4ad"
 }

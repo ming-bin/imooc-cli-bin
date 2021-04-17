@@ -1,0 +1,37 @@
+{
+    "name": "@imooc-cli-bin/init",
+    "version": "1.0.4",
+    "description": "imooc-cli-bin init",
+    "author": "ming-bin <1172725028@qq.com>",
+    "homepage": "https://github.com/ming-bin/imooc-cli-bin#readme",
+    "license": "ISC",
+    "main": "lib/index.js",
+    "directories": {
+        "lib": "lib",
+        "test": "__tests__"
+    },
+    "files": [
+        "lib"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ming-bin/imooc-cli-bin.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: run tests from root\" && exit 1"
+    },
+    "bugs": {
+        "url": "https://github.com/ming-bin/imooc-cli-bin/issues"
+    },
+    "dependencies": {
+        "@imooc-cli-bin/command": "file:../../models/command",
+        "@imooc-cli-bin/log": "file:../../utils/log",
+        "@imooc-cli-bin/request": "file:../../utils/request",
+        "fs-extra": "^9.1.0",
+        "inquirer": "^8.0.0",
+        "semver": "^7.3.5"
+    }
+}
